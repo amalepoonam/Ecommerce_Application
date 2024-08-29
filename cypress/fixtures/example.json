@@ -3,5 +3,14 @@
   "productTitleAmazon": "Casio G-Shock",
   "price": "",
   "emailId":"test@yopmail.com",
-  "password":"test@123"
+  "password":"test@123",
+  "mensProductName":"Catch Straight Leg Jean",
+  "productPrice": "$159.00",
+  "firstName":"Joe",
+  "nameOnCard":"xyz",
+  "cardType":"Visa",
+  "cardNumber":"4111111111111111",
+  "cardMonth":"12",
+  "cardYear":"30",
+  "cvv":"567"
 }

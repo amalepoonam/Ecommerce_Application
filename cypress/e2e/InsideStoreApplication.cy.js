@@ -23,8 +23,16 @@ describe('Validate the Inside store application end to end functionality',()=>{
     })
     it('purchase product with the existing user',()=>{
         const product=new purchaseProduct();
-
-        product.enterEmailAddress();
+        product.signingWithExistingUser();
+        product.verifyLoginUser();
+        product.continueShopping();
+        product.addProductToBasket();
+        product.nextStep();
+        product.creditCardInfo();
+        product.successPaymentMessage();
+        
+        
+        
 
     })
 })
