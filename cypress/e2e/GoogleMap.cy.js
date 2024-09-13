@@ -11,7 +11,7 @@ describe("Google Map", () => {
         cy.get('.DUwDvf').then((ele) => {
             const actText = ele.text();
             expect(actText.includes("Wankhede Stadium")).to.be.true;
-            cy.screenshot();// screenshotsaved in screen folder
+            // cy.screenshot();// screenshotsaved in screen folder
             cy.log("saved the screenshot succesfully");
             cy.title().should('contain', 'Wankhede Stadium');
 
