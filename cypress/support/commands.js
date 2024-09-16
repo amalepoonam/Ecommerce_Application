@@ -23,8 +23,11 @@ Cypress.Commands.add('SignIn', () => {
             if($el.text().includes("Rose Pink Embroidered Maxi Dress")){
                 cy.get('.add-to-cart').eq(index).click();
             }
+        })
 
         })
+        Cypress.Commands.add('checkOut', () => { 
+            cy.get('.btn.btn-default.check_out').click();
 
     
     })
