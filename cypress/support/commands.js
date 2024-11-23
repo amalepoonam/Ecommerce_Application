@@ -31,6 +31,16 @@ Cypress.Commands.add('SignIn', () => {
 
     
     })
+    Cypress.Commands.add('selectProduct', (productName) => { 
+        cy.get('.inventory_item_description').each(($e1,index,list)=>{
+            if($e1.text().includes(productName)){
+               cy.get('button').contains('Add to cart').eq(index).click();
+       
+            }
+        })
+
+
+})
 //
 //
 // -- This is a child command --
